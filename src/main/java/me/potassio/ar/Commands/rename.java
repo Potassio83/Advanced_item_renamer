@@ -29,7 +29,7 @@ public class rename implements CommandExecutor {
                         String name = "";
 
                         for (String s : args) {
-                            String arg = (s + "");
+                            String arg = (s + " ");
                             name = (name + arg);
                         }
                        try{ ItemStack item = new ItemStack(p.getItemInHand().getType());
