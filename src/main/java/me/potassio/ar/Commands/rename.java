@@ -24,7 +24,7 @@ public class rename implements CommandExecutor {
             F f = new F();
             if (sender != null) {
 
-                if (p.hasPermission("ar.rename")) {
+                if (p.hasPermission("ar.rename")||p.hasPermission("ar.*")) {
 
                         String name = "";
 
@@ -41,13 +41,13 @@ public class rename implements CommandExecutor {
                         p.sendMessage("§aItem Renamed");
 
                     }catch (Exception e){
-                        p.sendMessage("§cyou do not have an item in your hand");
+                        p.sendMessage("§cError: You don't have any item in your hand");
                     }
 
 
                 } else {
 
-                    p.sendMessage("§cNo perm");
+                    p.sendMessage("You don't have permission to use this command");
                 }
             }else{
 

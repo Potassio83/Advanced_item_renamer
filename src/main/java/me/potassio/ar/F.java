@@ -20,4 +20,5 @@ public class F {
         return ChatColor.translateAlternateColorCodes('&', matcher.appendTail(buffer).toString());
 
     }
+
 }

@@ -1,5 +1,6 @@
 package me.potassio.ar;
 
+import me.potassio.ar.Commands.lore;
 import me.potassio.ar.Commands.rename;
 import org.bukkit.Bukkit;
 import org.bukkit.command.ConsoleCommandSender;
@@ -37,6 +38,7 @@ public class Main extends JavaPlugin {
     private void comandi() {
 
         getCommand("rename").setExecutor(new rename());
+        getCommand("lore").setExecutor(new lore());
 
     }
 

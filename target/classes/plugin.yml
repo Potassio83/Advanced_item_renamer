@@ -1,9 +1,12 @@
 name: AdvancedRenamer
-version: 0.2
+version: 1.0
 main: me.potassio.ar.Main
 api-version: 1.16
 commands:
   rename:
+    permission: ar.* , ar.rename
+  lore:
+    permission: ar.* , ar.lore
 
 
 
