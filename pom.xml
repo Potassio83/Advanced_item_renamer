@@ -6,7 +6,7 @@
 
     <groupId>me.potassio</groupId>
     <artifactId>ADVANCED_RENAMER</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>Advanced_item_renamer</name>

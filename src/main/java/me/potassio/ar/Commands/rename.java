@@ -32,7 +32,7 @@ public class rename implements CommandExecutor {
                             String arg = (s + " ");
                             name = (name + arg);
                         }
-                       try{ ItemStack item = new ItemStack(p.getItemInHand().getType());
+                       try{ ItemStack item = new ItemStack(p.getItemInHand());
                         ItemMeta itemMeta = item.getItemMeta();
                         itemMeta.setDisplayName(f.translateHexCodes(name));
                         item.setItemMeta(itemMeta);
